@@ -28,13 +28,29 @@ bisos.overview.
 
 If you are interested in cloning all of Organization and all of their
 repositories so that you can process them all locally, we suggest that
-you continue at [sec:CloningTheWholeThing].
+you continue at `3 <#sec:CloningTheWholeThing>`__.
+
+Sample Code
+===========
+
+Most of Mohsen’s BISOS and ByStar related code is written COMEEGA
+https://github.com/bx-blee/comeega. Think of COMEEGA (Collaborative
+Org-Mode Enhanced Emacs Generalized Authorship) as inverse of Literate
+Programming.
+
+Many prefer to consider traditional Python code as sample code. For that
+purpose, there is a somewhat involved Web Scraping example at:
+https://github.com/bxexamples/webServicesScraping.
+
+.. _sec:CloningTheWholeThing:
 
 Cloning The Whole Thing
 =======================
 
 Our usage model for structuring multiple Git repositories is not that of
 the usual models of submodules or subtrees. Instead we use gitMaps.
+
+.. _sec:ModelAndConceptOfgitMaps:
 
 Model And Concept Of gitMaps
 ----------------------------
@@ -50,6 +66,8 @@ repository). The parts are then organized on the circuit board (local
 repository) – independent of how they were organized in the stock room.
 
 The gitMap model is implemented in bisos.bx-bases.
+
+.. _sec:BISOSDevelopersgitMaps:
 
 BISOS Developers gitMaps
 ------------------------
